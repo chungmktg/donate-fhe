@@ -7,7 +7,6 @@ import { useMetaMaskEthersSigner } from "../hooks/metamask/useMetaMaskEthersSign
 import { useEncryptedCharityDonation } from "@/hooks/useEncryptedCharityDonation"; // Adjust path to the new hook
 import { errorNotDeployed } from "./ErrorNotDeployed"; // Assume you have this
 import { useState } from "react";
-import { ethers } from "ethers";
 
 export const EncryptedCharityDonationDemo = () => {
   const { storage: fhevmDecryptionSignatureStorage } = useInMemoryStorage();
