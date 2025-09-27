@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = ".next"    # plugin xử lý routing và hàm
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
